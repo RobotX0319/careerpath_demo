@@ -1,0 +1,374 @@
+[
+  {
+    "id": 1,
+    "question": "Men yangi odamlar bilan tanishishni yoqtiraman",
+    "category": "extraversion",
+    "type": "scale"
+  },
+  {
+    "id": 2,
+    "question": "Men ko'p odamlar orasida bo'lishdan zavqlanaman",
+    "category": "extraversion",
+    "type": "scale"
+  },
+  {
+    "id": 3,
+    "question": "Men e'tiborning markazida bo'lishni yoqtiraman",
+    "category": "extraversion",
+    "type": "scale"
+  },
+  {
+    "id": 4,
+    "question": "Men tez-tez do'stlarim bilan uchrashaman",
+    "category": "extraversion",
+    "type": "scale"
+  },
+  {
+    "id": 5,
+    "question": "Men osongina yangi do'stlar orttirib olaman",
+    "category": "extraversion",
+    "type": "scale"
+  },
+  {
+    "id": 6,
+    "question": "Men birovning his-tuyg'ularini tez anglayman",
+    "category": "agreeableness",
+    "type": "scale"
+  },
+  {
+    "id": 7,
+    "question": "Men boshqalarning muammolariga hamdard bo'laman",
+    "category": "agreeableness",
+    "type": "scale"
+  },
+  {
+    "id": 8,
+    "question": "Men odamlarga ishonaman",
+    "category": "agreeableness",
+    "type": "scale"
+  },
+  {
+    "id": 9,
+    "question": "Men boshqalarga yordam berishni yoqtiraman",
+    "category": "agreeableness",
+    "type": "scale"
+  },
+  {
+    "id": 10,
+    "question": "Men hamma bilan yaxshi munosabatda bo'lishga harakat qilaman",
+    "category": "agreeableness",
+    "type": "scale"
+  },
+  {
+    "id": 11,
+    "question": "Men rejalarimni puxta bajaraman",
+    "category": "conscientiousness",
+    "type": "scale"
+  },
+  {
+    "id": 12,
+    "question": "Men har doim vaqtida kelaman",
+    "category": "conscientiousness",
+    "type": "scale"
+  },
+  {
+    "id": 13,
+    "question": "Men tartibli va tashkilotchil odamman",
+    "category": "conscientiousness",
+    "type": "scale"
+  },
+  {
+    "id": 14,
+    "question": "Men ishlarni oxirigacha yetkazaman",
+    "category": "conscientiousness",
+    "type": "scale"
+  },
+  {
+    "id": 15,
+    "question": "Men kichik detallarga e'tibor beraman",
+    "category": "conscientiousness",
+    "type": "scale"
+  },
+  {
+    "id": 16,
+    "question": "Men tez-tez xavotirlanaman",
+    "category": "neuroticism",
+    "type": "scale"
+  },
+  {
+    "id": 17,
+    "question": "Men stressli vaziyatlarda osonlikcha asabiylashaman",
+    "category": "neuroticism",
+    "type": "scale"
+  },
+  {
+    "id": 18,
+    "question": "Men ko'pincha o'zimni tushkunlikda his qilaman",
+    "category": "neuroticism",
+    "type": "scale"
+  },
+  {
+    "id": 19,
+    "question": "Men kichik muammolardan ham xafa bo'laman",
+    "category": "neuroticism",
+    "type": "scale"
+  },
+  {
+    "id": 20,
+    "question": "Men his-tuyg'ularimni nazorat qilishda qiynalaman",
+    "category": "neuroticism",
+    "type": "scale"
+  },
+  {
+    "id": 21,
+    "question": "Men san'at asarlarini qadirlayman",
+    "category": "openness",
+    "type": "scale"
+  },
+  {
+    "id": 22,
+    "question": "Men yangi g'oyalarni o'rganishni yoqtiraman",
+    "category": "openness",
+    "type": "scale"
+  },
+  {
+    "id": 23,
+    "question": "Men ijodiy ishlar bilan shug'ullanaman",
+    "category": "openness",
+    "type": "scale"
+  },
+  {
+    "id": 24,
+    "question": "Men falsafiy savollar ustida o'ylashni yoqtiraman",
+    "category": "openness",
+    "type": "scale"
+  },
+  {
+    "id": 25,
+    "question": "Men yangi tajribalarni sinab ko'rishni yoqtiraman",
+    "category": "openness",
+    "type": "scale"
+  },
+  {
+    "id": 26,
+    "question": "Men yolg'iz vaqt o'tkazishni afzal ko'raman",
+    "category": "extraversion",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 27,
+    "question": "Men katta guruhlardan qochaman",
+    "category": "extraversion",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 28,
+    "question": "Men kam gapiradigan odamman",
+    "category": "extraversion",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 29,
+    "question": "Men boshqalarning motivlaridan shubhalanaman",
+    "category": "agreeableness",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 30,
+    "question": "Men o'z manfaatlarimni birinchi o'ringa qo'yaman",
+    "category": "agreeableness",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 31,
+    "question": "Men ba'zan beparvo bo'lib qolaman",
+    "category": "conscientiousness",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 32,
+    "question": "Men tartibsizlikka moyilman",
+    "category": "conscientiousness",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 33,
+    "question": "Men vazifalarimni kechiktirib bajaraman",
+    "category": "conscientiousness",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 34,
+    "question": "Men ko'pincha xotirjam va tinchman",
+    "category": "neuroticism",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 35,
+    "question": "Men stressga chidamli odamman",
+    "category": "neuroticism",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 36,
+    "question": "Men an'anaviy usullarni afzal ko'raman",
+    "category": "openness",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 37,
+    "question": "Men o'zgarishlarni yoqtirmayman",
+    "category": "openness",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 38,
+    "question": "Men partiyalar va ijtimoiy tadbirlarga boraman",
+    "category": "extraversion",
+    "type": "scale"
+  },
+  {
+    "id": 39,
+    "question": "Men suhbatni o'zim boshlayman",
+    "category": "extraversion",
+    "type": "scale"
+  },
+  {
+    "id": 40,
+    "question": "Men boshqalarning yaxshi tomonlarini ko'raman",
+    "category": "agreeableness",
+    "type": "scale"
+  },
+  {
+    "id": 41,
+    "question": "Men kechirimli odamman",
+    "category": "agreeableness",
+    "type": "scale"
+  },
+  {
+    "id": 42,
+    "question": "Men maqsadlarimga erishish uchun qattiq ishlayman",
+    "category": "conscientiousness",
+    "type": "scale"
+  },
+  {
+    "id": 43,
+    "question": "Men o'z va'dalarimni bajaraman",
+    "category": "conscientiousness",
+    "type": "scale"
+  },
+  {
+    "id": 44,
+    "question": "Men tez-tez o'zimdan shubhalanaman",
+    "category": "neuroticism",
+    "type": "scale"
+  },
+  {
+    "id": 45,
+    "question": "Men kelajak haqida tashvishlanaman",
+    "category": "neuroticism",
+    "type": "scale"
+  },
+  {
+    "id": 46,
+    "question": "Men ko'p kitob o'qiyman",
+    "category": "openness",
+    "type": "scale"
+  },
+  {
+    "id": 47,
+    "question": "Men turli madaniyatlarni o'rganishni yoqtiraman",
+    "category": "openness",
+    "type": "scale"
+  },
+  {
+    "id": 48,
+    "question": "Men energiya bilan to'lganman",
+    "category": "extraversion",
+    "type": "scale"
+  },
+  {
+    "id": 49,
+    "question": "Men boshqalarga rahm-shafqat ko'rsataman",
+    "category": "agreeableness",
+    "type": "scale"
+  },
+  {
+    "id": 50,
+    "question": "Men samarali ishlayman",
+    "category": "conscientiousness",
+    "type": "scale"
+  },
+  {
+    "id": 51,
+    "question": "Men o'z his-tuyg'ularimni yashirmayman",
+    "category": "neuroticism",
+    "type": "scale"
+  },
+  {
+    "id": 52,
+    "question": "Men boy tasavvurga egaman",
+    "category": "openness",
+    "type": "scale"
+  },
+  {
+    "id": 53,
+    "question": "Men ko'pchilik oldida gapirishdan qo'rqmayman",
+    "category": "extraversion",
+    "type": "scale"
+  },
+  {
+    "id": 54,
+    "question": "Men mehribonman",
+    "category": "agreeableness",
+    "type": "scale"
+  },
+  {
+    "id": 55,
+    "question": "Men o'z ishimga mas'uliyat bilan yondashaman",
+    "category": "conscientiousness",
+    "type": "scale"
+  },
+  {
+    "id": 56,
+    "question": "Men osonlikcha xafa bo'laman",
+    "category": "neuroticism",
+    "type": "scale"
+  },
+  {
+    "id": 57,
+    "question": "Men g'ayrioddiy fikrlayman",
+    "category": "openness",
+    "type": "scale"
+  },
+  {
+    "id": 58,
+    "question": "Men hayotdan zavqlanaman",
+    "category": "extraversion",
+    "type": "scale"
+  },
+  {
+    "id": 59,
+    "question": "Men boshqalarga o'z vaqtimni bag'ishlayman",
+    "category": "agreeableness",
+    "type": "scale"
+  },
+  {
+    "id": 60,
+    "question": "Men rejali harakat qilaman",
+    "category": "conscientiousness",
+    "type": "scale"
+  }
+]
