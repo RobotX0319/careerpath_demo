@@ -1,15 +1,12 @@
 import NextAuth from 'next-auth'
 import { SupabaseAdapter } from '@next-auth/supabase-adapter'
 import EmailProvider from 'next-auth/providers/email'
-import { createClient } from '@supabase/supabase-js'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 export const authOptions = {
-  adapter: SupabaseAdapter(supabase),
+  adapter: SupabaseAdapter({
+    url: process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    secret: process.env.SUPABASE_SERVICE_ROLE_KEY!
+  }),
   providers: [
     EmailProvider({
       server: {
@@ -24,7 +21,7 @@ export const authOptions = {
     })
   ],
   secret: process.env.NEXTAUTH_SECRET,
-  session: { strategy: 'jwt' }
+  session: { strategy: 'jwt' as const }
 }
 
 const handler = NextAuth(authOptions)

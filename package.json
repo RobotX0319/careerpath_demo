@@ -15,5 +15,13 @@
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/tailwindcss": "^3.0.11"
   }
 }
