@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "Men yangi odamlar bilan tanishishni yoqtiraman",
+    "category": "extraversion",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 2,
+    "question": "Men tashqi muhitda energiya olamam",
+    "category": "extraversion",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 3,
+    "question": "Men jimjit va sokin bo'lishni afzal ko'raman",
+    "category": "extraversion",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 4,
+    "question": "Men rejalarimni puxta bajaraman",
+    "category": "conscientiousness",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 5,
+    "question": "Men tartibli va tashkil etilgan insonman",
+    "category": "conscientiousness",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 6,
+    "question": "Men beparvo va ehtiyotsiz bo'laman",
+    "category": "conscientiousness",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 7,
+    "question": "Men boshqalar bilan hamjihatlik qilaman",
+    "category": "agreeableness",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 8,
+    "question": "Men mehribon va samimiy insonman",
+    "category": "agreeableness",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 9,
+    "question": "Men ba'zan shafqatsiz bo'laman",
+    "category": "agreeableness",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 10,
+    "question": "Men tez-tez asabiy bo'laman",
+    "category": "neuroticism",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 11,
+    "question": "Men stress holatida ham xotirjam qolaman",
+    "category": "neuroticism",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 12,
+    "question": "Men yangi g'oyalarni qabul qilaman",
+    "category": "openness",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 13,
+    "question": "Men ijodiy va tasavvurli insonman",
+    "category": "openness",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 14,
+    "question": "Men an'anaviy va oddiy usullarni afzal ko'raman",
+    "category": "openness",
+    "type": "scale",
+    "reverse": true
+  },
+  {
+    "id": 15,
+    "question": "Men ko'p odamlar bilan muloqot qilishni yoqtiraman",
+    "category": "extraversion",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 16,
+    "question": "Men vazifalarni vaqtida tugataman",
+    "category": "conscientiousness",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 17,
+    "question": "Men boshqalarga yordam berishni yaxshi ko'raman",
+    "category": "agreeableness",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 18,
+    "question": "Men tez-tez qayg'uraman",
+    "category": "neuroticism",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 19,
+    "question": "Men san'at va madaniyatga qiziqaman",
+    "category": "openness",
+    "type": "scale",
+    "reverse": false
+  },
+  {
+    "id": 20,
+    "question": "Men odamlar bilan janjallashishni yoqtirmayman",
+    "category": "agreeableness",
+    "type": "scale",
+    "reverse": false
+  }
+]

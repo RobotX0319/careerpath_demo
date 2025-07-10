@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "Keyingi raqam qaysi? 2, 4, 8, 16, ?",
+    "options": ["24", "32", "28", "36"],
+    "correct": 1,
+    "type": "sequence",
+    "difficulty": "easy",
+    "time_limit": 60
+  },
+  {
+    "id": 2,
+    "question": "Qaysi so'z ortiqcha? Olma, Nok, Banan, Sabzi, Uzum",
+    "options": ["Olma", "Nok", "Sabzi", "Uzum"],
+    "correct": 2,
+    "type": "odd_one_out",
+    "difficulty": "easy",
+    "time_limit": 45
+  },
+  {
+    "id": 3,
+    "question": "Agar KITOB = 2850, DAFTAR = 3200 bo'lsa, QALAM = ?",
+    "options": ["2400", "2600", "2800", "3000"],
+    "correct": 1,
+    "type": "pattern",
+    "difficulty": "medium",
+    "time_limit": 90
+  },
+  {
+    "id": 4,
+    "question": "5 ta olma 10 ming so'm tursa, 8 ta olma qancha turadi?",
+    "options": ["15000", "16000", "18000", "20000"],
+    "correct": 1,
+    "type": "math",
+    "difficulty": "easy",
+    "time_limit": 45
+  },
+  {
+    "id": 5,
+    "question": "Quyidagi harflar ketma-ketligini davom ettiring: A, C, F, J, O, ?",
+    "options": ["T", "U", "V", "W"],
+    "correct": 1,
+    "type": "sequence",
+    "difficulty": "hard",
+    "time_limit": 90
+  },
+  {
+    "id": 6,
+    "question": "Agar bugun seshanba bo'lsa, 100 kundan keyin qaysi kun bo'ladi?",
+    "options": ["Dushanba", "Seshanba", "Chorshanba", "Payshanba"],
+    "correct": 3,
+    "type": "logic",
+    "difficulty": "medium",
+    "time_limit": 75
+  },
+  {
+    "id": 7,
+    "question": "Qaysi raqam noto'g'ri yozilgan? 16, 25, 36, 48, 64",
+    "options": ["25", "36", "48", "64"],
+    "correct": 2,
+    "type": "pattern",
+    "difficulty": "medium",
+    "time_limit": 60
+  },
+  {
+    "id": 8,
+    "question": "1, 1, 2, 3, 5, 8, 13, ?",
+    "options": ["18", "21", "24", "26"],
+    "correct": 1,
+    "type": "sequence",
+    "difficulty": "medium",
+    "time_limit": 60
+  },
+  {
+    "id": 9,
+    "question": "Agar soat 3:15 ni ko'rsatayotgan bo'lsa, soat va minut millari orasidagi burchak necha gradus?",
+    "options": ["0°", "7.5°", "15°", "22.5°"],
+    "correct": 1,
+    "type": "spatial",
+    "difficulty": "hard",
+    "time_limit": 90
+  },
+  {
+    "id": 10,
+    "question": "100 dan 1 gacha bo'lgan barcha toq sonlar yig'indisi qancha?",
+    "options": ["2500", "2450", "2550", "2600"],
+    "correct": 0,
+    "type": "math",
+    "difficulty": "medium",
+    "time_limit": 90
+  }
+]

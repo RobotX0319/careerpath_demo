@@ -1,37 +1,69 @@
 "use client"
+
 import { useState } from 'react'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
 
 export default function LoginForm() {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState('')
+  const [formData, setFormData] = useState({
+    email: '',
+    password: ''
+  })
+  const [isLoading, setIsLoading] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setLoading(true)
-    setError('')
-    // TODO: NextAuth signIn
+    setIsLoading(true)
+    
+    // Demo login - any email/password works
     setTimeout(() => {
-      setLoading(false)
-      setError("Demo: Auth backend yo'q")
+      setIsLoading(false)
+      window.location.href = '/dashboard'
     }, 1000)
   }
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       <div>
-        <label className="block mb-1">Email</label>
-        <input type="email" className="w-full border rounded px-3 py-2" value={email} onChange={e => setEmail(e.target.value)} required />
+        <Label htmlFor="email">Email</Label>
+        <Input
+          id="email"
+          type="email"
+          value={formData.email}
+          onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
+          placeholder="demo@example.com"
+          required
+          className="mt-1"
+        />
       </div>
+      
       <div>
-        <label className="block mb-1">Parol</label>
-        <input type="password" className="w-full border rounded px-3 py-2" value={password} onChange={e => setPassword(e.target.value)} required />
+        <Label htmlFor="password">Parol</Label>
+        <Input
+          id="password"
+          type="password"
+          value={formData.password}
+          onChange={(e) => setFormData(prev => ({ ...prev, password: e.target.value }))}
+          placeholder="password"
+          required
+          className="mt-1"
+        />
       </div>
-      {error && <div className="text-red-500 text-sm">{error}</div>}
-      <button type="submit" className="w-full bg-primary text-white py-2 rounded" disabled={loading}>
-        {loading ? 'Kirish...' : 'Kirish'}
-      </button>
+
+      <Button 
+        type="submit" 
+        className="w-full"
+        disabled={isLoading}
+      >
+        {isLoading ? 'Kirilmoqda...' : 'Kirish'}
+      </Button>
+
+      <div className="text-center">
+        <p className="text-sm text-gray-600 mt-4">
+          Demo uchun: Istalgan email va parol ishlatishingiz mumkin
+        </p>
+      </div>
     </form>
   )
 }

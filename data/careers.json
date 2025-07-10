@@ -1,0 +1,142 @@
+[
+  {
+    "id": "software-developer",
+    "title": "Dasturchi",
+    "description": "Dasturiy ta'minot yaratish va qo'llab-quvvatlash",
+    "required_skills": ["dasturlash", "muammo hal qilish", "mantiqiy fikrlash"],
+    "education": "Oliy ta'lim (IT yo'nalishi)",
+    "salary_range": {
+      "min": 500,
+      "max": 3000,
+      "currency": "USD"
+    },
+    "growth_rate": "22%",
+    "category": "IT"
+  },
+  {
+    "id": "data-scientist",
+    "title": "Ma'lumotlar olimi",
+    "description": "Katta hajmdagi ma'lumotlarni tahlil qilish",
+    "required_skills": ["statistika", "dasturlash", "ma'lumotlar tahlili"],
+    "education": "Oliy ta'lim (Matematika/Statistika)",
+    "salary_range": {
+      "min": 800,
+      "max": 4000,
+      "currency": "USD"
+    },
+    "growth_rate": "35%",
+    "category": "IT"
+  },
+  {
+    "id": "graphic-designer",
+    "title": "Grafik dizayner",
+    "description": "Vizual dizayn va grafik materiallar yaratish",
+    "required_skills": ["ijodkorlik", "dizayn", "grafik dasturlar"],
+    "education": "Oliy ta'lim (Dizayn)",
+    "salary_range": {
+      "min": 300,
+      "max": 1500,
+      "currency": "USD"
+    },
+    "growth_rate": "8%",
+    "category": "Dizayn"
+  },
+  {
+    "id": "marketing-manager",
+    "title": "Marketing menejeri",
+    "description": "Marketing strategiyalarini ishlab chiqish va amalga oshirish",
+    "required_skills": ["marketing", "muloqot", "tahlil"],
+    "education": "Oliy ta'lim (Marketing/Biznes)",
+    "salary_range": {
+      "min": 600,
+      "max": 2500,
+      "currency": "USD"
+    },
+    "growth_rate": "18%",
+    "category": "Marketing"
+  },
+  {
+    "id": "teacher",
+    "title": "O'qituvchi",
+    "description": "Ta'lim berish va o'quvchilarni rivojlantirish",
+    "required_skills": ["o'qitish", "sabr", "muloqot"],
+    "education": "Oliy ta'lim (Pedagogika)",
+    "salary_range": {
+      "min": 200,
+      "max": 800,
+      "currency": "USD"
+    },
+    "growth_rate": "5%",
+    "category": "Ta'lim"
+  },
+  {
+    "id": "doctor",
+    "title": "Shifokor",
+    "description": "Kasalliklarni davolash va sog'liqni saqlash",
+    "required_skills": ["tibbiyot", "diqqat", "mas'uliyat"],
+    "education": "Oliy ta'lim (Tibbiyot)",
+    "salary_range": {
+      "min": 800,
+      "max": 5000,
+      "currency": "USD"
+    },
+    "growth_rate": "12%",
+    "category": "Sog'liqni saqlash"
+  },
+  {
+    "id": "accountant",
+    "title": "Buxgalter",
+    "description": "Moliyaviy hisobotlar va hisob-kitoblar",
+    "required_skills": ["matematika", "diqqat", "mas'uliyat"],
+    "education": "Oliy ta'lim (Moliya/Buxgalteriya)",
+    "salary_range": {
+      "min": 400,
+      "max": 1200,
+      "currency": "USD"
+    },
+    "growth_rate": "6%",
+    "category": "Moliya"
+  },
+  {
+    "id": "lawyer",
+    "title": "Yurist",
+    "description": "Huquqiy maslahatlar va sudda himoya qilish",
+    "required_skills": ["huquq", "mantiq", "nutq"],
+    "education": "Oliy ta'lim (Huquqshunoslik)",
+    "salary_range": {
+      "min": 600,
+      "max": 3000,
+      "currency": "USD"
+    },
+    "growth_rate": "9%",
+    "category": "Huquq"
+  },
+  {
+    "id": "engineer",
+    "title": "Muhandis",
+    "description": "Texnik loyihalarni ishlab chiqish va amalga oshirish",
+    "required_skills": ["matematika", "texnika", "muammo hal qilish"],
+    "education": "Oliy ta'lim (Muhandislik)",
+    "salary_range": {
+      "min": 500,
+      "max": 2000,
+      "currency": "USD"
+    },
+    "growth_rate": "15%",
+    "category": "Muhandislik"
+  },
+  {
+    "id": "psychologist",
+    "title": "Psixolog",
+    "description": "Ruhiy salomatlik va psixologik yordam",
+    "required_skills": ["psixologiya", "tinglay bilish", "empati"],
+    "education": "Oliy ta'lim (Psixologiya)",
+    "salary_range": {
+      "min": 400,
+      "max": 1500,
+      "currency": "USD"
+    },
+    "growth_rate": "14%",
+    "category": "Sog'liqni saqlash"
+  }
+]

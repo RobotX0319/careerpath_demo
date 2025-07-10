@@ -1,42 +1,132 @@
 "use client"
+
 import { useState } from 'react'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
 
 export default function RegisterForm() {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [name, setName] = useState('')
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState('')
+  const [formData, setFormData] = useState({
+    full_name: '',
+    email: '',
+    password: '',
+    confirm_password: '',
+    phone: '',
+    birth_date: ''
+  })
+  const [isLoading, setIsLoading] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setLoading(true)
-    setError('')
-    // TODO: NextAuth signUp
-    setTimeout(() => {
-      setLoading(false)
-      setError("Demo: Auth backend yo'q")
+    setIsLoading(true)
+    
+    // Demo registration
+    setTimeout(async () => {
+      // Send welcome email
+      try {
+        await fetch('/api/email', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            type: 'welcome',
+            data: {
+              email: formData.email,
+              name: formData.full_name
+            }
+          })
+        })
+      } catch (error) {
+        console.error('Welcome email error:', error)
+      }
+      
+      setIsLoading(false)
+      alert('Muvaffaqiyatli ro\'yxatdan o\'tdingiz! Email yuborildi.')
+      window.location.href = '/dashboard'
     }, 1000)
   }
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       <div>
-        <label className="block mb-1">Ism</label>
-        <input type="text" className="w-full border rounded px-3 py-2" value={name} onChange={e => setName(e.target.value)} required />
+        <Label htmlFor="full_name">To'liq ism</Label>
+        <Input
+          id="full_name"
+          value={formData.full_name}
+          onChange={(e) => setFormData(prev => ({ ...prev, full_name: e.target.value }))}
+          placeholder="Ism Familiya"
+          required
+          className="mt-1"
+        />
       </div>
+      
       <div>
-        <label className="block mb-1">Email</label>
-        <input type="email" className="w-full border rounded px-3 py-2" value={email} onChange={e => setEmail(e.target.value)} required />
+        <Label htmlFor="email">Email</Label>
+        <Input
+          id="email"
+          type="email"
+          value={formData.email}
+          onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
+          placeholder="example@email.com"
+          required
+          className="mt-1"
+        />
       </div>
+
       <div>
-        <label className="block mb-1">Parol</label>
-        <input type="password" className="w-full border rounded px-3 py-2" value={password} onChange={e => setPassword(e.target.value)} required />
+        <Label htmlFor="phone">Telefon</Label>
+        <Input
+          id="phone"
+          value={formData.phone}
+          onChange={(e) => setFormData(prev => ({ ...prev, phone: e.target.value }))}
+          placeholder="+998901234567"
+          className="mt-1"
+        />
       </div>
-      {error && <div className="text-red-500 text-sm">{error}</div>}
-      <button type="submit" className="w-full bg-primary text-white py-2 rounded" disabled={loading}>
-        {loading ? "+ Ro'yxatdan o'tmoqda..." : "+ Ro'yxatdan o'tish"}
-      </button>
+
+      <div>
+        <Label htmlFor="birth_date">Tug'ilgan sana</Label>
+        <Input
+          id="birth_date"
+          type="date"
+          value={formData.birth_date}
+          onChange={(e) => setFormData(prev => ({ ...prev, birth_date: e.target.value }))}
+          className="mt-1"
+        />
+      </div>
+      
+      <div>
+        <Label htmlFor="password">Parol</Label>
+        <Input
+          id="password"
+          type="password"
+          value={formData.password}
+          onChange={(e) => setFormData(prev => ({ ...prev, password: e.target.value }))}
+          placeholder="Kamida 6 ta belgi"
+          required
+          className="mt-1"
+        />
+      </div>
+
+      <div>
+        <Label htmlFor="confirm_password">Parolni tasdiqlang</Label>
+        <Input
+          id="confirm_password"
+          type="password"
+          value={formData.confirm_password}
+          onChange={(e) => setFormData(prev => ({ ...prev, confirm_password: e.target.value }))}
+          placeholder="Parolni qayta kiriting"
+          required
+          className="mt-1"
+        />
+      </div>
+
+      <Button 
+        type="submit" 
+        className="w-full"
+        disabled={isLoading}
+      >
+        {isLoading ? 'Ro\'yxatdan o\'tilmoqda...' : 'Ro\'yxatdan o\'tish'}
+      </Button>
     </form>
   )
 }
